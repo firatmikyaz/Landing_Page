@@ -34,9 +34,9 @@
             <nav id="navbar">
                 <h1 class="heading-small">Fırat Mikyaz</h1>
                 <ul>
-                    <li><a href="">Ana Sayfa</a></li>
+                    <li><a href="#home">Ana Sayfa</a></li>
                     <li><a href="">Hakkında</a></li>
-                    <li><a href="">İletişim</a></li>
+                    <li><a href="#contact">İletişim</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,7 +48,57 @@
             <p>Web Developer</p>
         </div>
 
-        <a href="#Hakkında">Hakkındaya Git</a>
+        <a href="#Hakkında" class="btn btn-primary">Hakkındaya Git</a>
     </section>
+
+    <section id="hakkında">
+        <h3 class="text-center heading-medium"></h3>
+        <div class="container">
+            <div></div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">
+                    Bana Ulaşın
+                </h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input 
+                    type="text" class="form-control" name="name" 
+                    id="name" placeholder="İsim">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                    type="text" class="form-control" name="email" 
+                    id="email" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    class="form-control"
+                    rows="5"
+                    placeholder="Mesajınız.."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder   
+                </button>
+            </form>
+
+            <ul>
+                <li><a href="https://www.instagram.com/frtmkyz/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-discord"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
